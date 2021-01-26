@@ -3,14 +3,8 @@ package com.maker;
 public class Main {
 
     public static void main(String[] args) {
-        char c='A';
+        System.out.print(1e20f*1e20f);
 
-        System.out.print(c);
-
-        System.out.print(c+1);
-
-        System.out.print("c="+c);
-
-        System.out.print('c' + '=' + c);
+        System.out.print(-1e200*1e200);
     }
 }
