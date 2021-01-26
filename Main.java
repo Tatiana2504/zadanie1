@@ -1,17 +1,11 @@
-package com.metanit;
+package com.maker;
 
-class Variables {
+public class Main {
 
-    public static void main (String[] args) {
-
-        double a = 3;
-
-        double b = 4;
-
-        double c ;
-
-        c = Math.sqrt (a* a + b* b);
-
-        System.out.println ("c = "+ c);
-
-    } }
+    public static void main(String[] args) {
+        char symb1=1067;
+        char symb2 ='Ы';
+        System.out.println("symb1 contains "+ symb1);
+        System.out.println("symb2 contains "+ symb2);
+    }
+}
