@@ -3,8 +3,8 @@ package com.maker;
 public class Main {
 
     public static void main(String[] args) {
-        int x=1;
+        System.out.print(1+2+"text");
 
-        System.out.print("x="+x);
+        System.out.print("text"+1+2);
     }
 }
