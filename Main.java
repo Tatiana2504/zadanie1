@@ -3,8 +3,9 @@ package com.maker;
 public class Main {
 
     public static void main(String[] args) {
-        char ch = 'J';
-        int intCh = (int) ch;
-        System.out.println("J corresponds with "+ intCh);
+        String s1 = "I have ";
+        String s2 = " apples ";
+        int num = 3; String s = s1 + num + s2;
+        System.out.println(s);
     }
 }
