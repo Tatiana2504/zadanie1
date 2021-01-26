@@ -3,9 +3,14 @@ package com.maker;
 public class Main {
 
     public static void main(String[] args) {
-        String s1 = "I have ";
-        String s2 = " apples ";
-        int num = 3; String s = s1 + num + s2;
-        System.out.println(s);
+        byte x=5;
+        byte y1=x++;
+        byte y2=x--;
+        byte y3=++x;
+        byte y4=--x;
+        System.out.println(y1);
+        System.out.println(y2);
+        System.out.println(y3);
+        System.out.println(y4);
     }
 }
